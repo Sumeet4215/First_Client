@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore agarbatti, dhoop, camphor, sambrani and pooja essentials from Haswani Sugandhalaya.">
+  <title>Marketplace | Haswani Sugandhalaya</title>
+  <link rel="icon" href="assets/brand-mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><nav class="navbar container" aria-label="Main navigation">
+    <a class="brand" href="index.html"><img src="assets/brand-mark.svg" alt="" width="42" height="42"><span>Haswani <b>Sugandhalaya</b></span></a>
+    <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="primary-nav"><a href="index.html">Home</a><a class="active" href="marketplace.html">Marketplace</a><a href="contact.html">Contact Us</a></div>
+  </nav></header>
+  <main>
+    <section class="page-hero"><div class="container"><span class="eyebrow">Our collection</span><h1>Explore Our <em>Products</em></h1><p>Discover our range of fragrance and devotional essentials.</p></div></section>
+    <section class="section container marketplace-section">
+      <div class="market-tools">
+        <label class="search-wrap"><span aria-hidden="true">⌕</span><input id="product-search" type="search" placeholder="Search products..." aria-label="Search products"></label>
+        <label class="filter-wrap"><span class="sr-only">Filter by category</span><select id="category-filter"><option value="all">All Categories</option><option value="agarbatti">Agarbatti / Incense Sticks</option><option value="dhoop">Dhoop Sticks & Cones</option><option value="camphor">Camphor / Kapoor</option><option value="sambrani">Sambrani Cups</option><option value="havan">Havan Samagri</option><option value="other">Other Pooja & Fragrance</option></select></label>
+      </div>
+      <p class="results-line" id="results-count" aria-live="polite">Showing all products</p>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card" data-category="agarbatti" data-name="classic sandal agarbatti"><div class="product-image"><img src="assets/agarbatti.svg" alt="Classic sandal incense sticks" loading="lazy"><span class="product-category">Agarbatti</span></div><div class="product-info"><h2>Classic Sandal Agarbatti</h2><p>A warm, comforting fragrance for daily prayers and peaceful spaces.</p><a class="product-enquire" href="contact.html?product=Classic%20Sandal%20Agarbatti">Enquire Now <span>→</span></a></div></article>
+        <article class="product-card" data-category="agarbatti" data-name="floral fragrance incense sticks"><div class="product-image"><img src="assets/agarbatti.svg" alt="Floral fragrance incense sticks" loading="lazy"><span class="product-category">Agarbatti</span></div><div class="product-info"><h2>Floral Fragrance Incense</h2><p>A gentle floral aroma to refresh your home and prayer space.</p><a class="product-enquire" href="contact.html?product=Floral%20Fragrance%20Incense">Enquire Now <span>→</span></a></div></article>
+        <article class="product-card" data-category="dhoop" data-name="traditional dhoop sticks"><div class="product-image"><img src="assets/dhoop.svg" alt="Traditional dhoop sticks" loading="lazy"><span class="product-category">Dhoop</span></div><div class="product-info"><h2>Traditional Dhoop Sticks</h2><p>A rich, traditional fragrance for your everyday devotional rituals.</p><a class="product-enquire" href="contact.html?product=Traditional%20Dhoop%20Sticks">Enquire Now <span>→</span></a></div></article>
+        <article class="product-card" data-category="dhoop" data-name="aromatic dhoop cones"><div class="product-image"><img src="assets/dhoop.svg" alt="Aromatic dhoop cones" loading="lazy"><span class="product-category">Dhoop</span></div><div class="product-info"><h2>Aromatic Dhoop Cones</h2><p>Compact fragrance cones for a calm and welcoming atmosphere.</p><a class="product-enquire" href="contact.html?product=Aromatic%20Dhoop%20Cones">Enquire Now <span>→</span></a></div></article>
+        <article class="product-card" data-category="camphor" data-name="camphor kapoor tablets"><div class="product-image"><img src="assets/camphor.svg" alt="Camphor or kapoor tablets" loading="lazy"><span class="product-category">Camphor</span></div><div class="product-info"><h2>Camphor / Kapoor</h2><p>A familiar pooja essential for daily worship and devotional use.</p><a class="product-enquire" href="contact.html?product=Camphor%20%2F%20Kapoor">Enquire Now <span>→</span></a></div></article>
+        <article class="product-card" data-category="sambrani" data-name="sambrani cups"><div class="product-image"><img src="assets/dhoop.svg" alt="Sambrani cups" loading="lazy"><span class="product-category">Sambrani</span></div><div class="product-info"><h2>Sambrani Cups</h2><p>Convenient cups for a traditional aromatic experience at home.</p><a class="product-enquire" href="contact.html?product=Sambrani%20Cups">Enquire Now <span>→</span></a></div></article>
+        <article class="product-card" data-category="havan" data-name="havan samagri"><div class="product-image"><img src="assets/pooja.svg" alt="Havan samagri" loading="lazy"><span class="product-category">Havan Samagri</span></div><div class="product-info"><h2>Havan Samagri</h2><p>Selected essentials for havan, ceremonies, and special occasions.</p><a class="product-enquire" href="contact.html?product=Havan%20Samagri">Enquire Now <span>→</span></a></div></article>
+        <article class="product-card" data-category="other" data-name="pooja fragrance essentials"><div class="product-image"><img src="assets/pooja.svg" alt="Pooja and fragrance essentials" loading="lazy"><span class="product-category">Pooja Essentials</span></div><div class="product-info"><h2>Pooja & Fragrance Essentials</h2><p>Useful everyday essentials for your home mandir and rituals.</p><a class="product-enquire" href="contact.html?product=Pooja%20%26%20Fragrance%20Essentials">Enquire Now <span>→</span></a></div></article>
+      </div>
+      <div class="empty-state" id="empty-state" hidden><span>⌕</span><h2>No products found</h2><p>Try another product name or category.</p></div>
+      <div class="market-note"><span>✦</span><p>Looking for bulk quantities or wholesale pricing? <a href="contact.html">Contact us for an enquiry.</a></p></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main">
+    <div class="footer-brand"><a class="brand" href="index.html"><img src="assets/brand-mark.svg" alt="" width="42" height="42"><span>Haswani <b>Sugandhalaya</b></span></a><p>Quality fragrance and devotional essentials for homes, shops, and everyday rituals.</p></div>
+    <div><h3>Quick Links</h3><a href="index.html">Home</a><a href="marketplace.html">Marketplace</a><a href="contact.html">Contact Us</a></div>
+    <div><h3>Contact</h3><a href="tel:[ADD-PHONE-NUMBER]">[ADD PHONE NUMBER]</a><a href="mailto:[ADD-EMAIL-ADDRESS]">[ADD EMAIL ADDRESS]</a><span>Wholesaler & Retailer</span></div>
+  </div><div class="container footer-bottom"><span>© 2026 Haswani Sugandhalaya. All Rights Reserved.</span><span>Fragrance that feels like home.</span></div></footer>
+</body></html>
